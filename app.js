@@ -24,8 +24,8 @@ function displayWord() {
     .split('')
     .map(
         letter => `
-        <span class ="letter`>
-        ${correctLetters.includes(letter) ? letter : ''}
+        <span class ="letter>`
+        `${correctLetters.includes(letter) ? letter : ''}
         </span>
         `
         
@@ -79,8 +79,7 @@ if (innerWord === selectedWord) {
 function showNotification() {
     notification.classList.remove('show');
 
-}, 2000);
-}
+} 2000;
 
 // keydown letter press
 window.addEventListener('keydown', e => {
