@@ -18,6 +18,8 @@ h1 {
     letter-spacing: 8px;
 }
 
+p { font-size: 30px;}
+
 .game-container {
     padding: 20px 30px;
     position: relative;
@@ -59,7 +61,7 @@ h1 {
 .letter {
     border-bottom: 3px solid #fff;
     display: inline-flex;
-    font-size: 25gitpx;
+    font-size: 25px;
     align-items: center;
     justify-content: center;
     margin: 0 3px;
